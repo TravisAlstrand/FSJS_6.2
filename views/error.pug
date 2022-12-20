@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content 
+  div.pnf-container
+    h1 OH NO! 
+    h2= err.message 
+    p Error status: #{err.status}
+    nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

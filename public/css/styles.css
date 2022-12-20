@@ -300,6 +300,10 @@ nav a span {
   border: 1px solid transparent;
 }
 
+.pnf-container {
+  text-align: center;
+}
+
 
 /* 
   Tablet layout styles 
