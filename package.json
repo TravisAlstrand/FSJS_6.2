@@ -1,0 +1,23 @@
+{
+  "name": "fsjs_6.2",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravisAlstrand/FSJS_6.2.git"
+  },
+  "author": "Travis Alstrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravisAlstrand/FSJS_6.2/issues"
+  },
+  "homepage": "https://github.com/TravisAlstrand/FSJS_6.2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
