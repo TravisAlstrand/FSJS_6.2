@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "An app that displays random famous quotes each time the button is clicked, or a period of time passes.",
+      "technologies": ["Variables", "Strings", "Arrays", "Loops", "Conditionals"],
+      "live_link": "https://travisalstrand.github.io/FSJS_1.2/",
+      "github_link": "https://github.com/TravisAlstrand/FSJS_1.2",
+      "image_urls": ["images/p1_1", "images/p1_2"]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination and Filtering",
+      "description": "A page of students which are dynamically paginated with an option of searching by name and changing results per page.",
+      "technologies": ["DOM Selection", "DOM Events", "DOM Manipulation", "Pagination", "Filtering"],
+      "live_link": "https://travisalstrand.github.io/FSJS_2.2/",
+      "github_link": "https://github.com/TravisAlstrand/FSJS_2.2",
+      "image_urls": ["images/p2_1", "images/p2_2"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "An interactive form utilizing conditional and real-time validation.",
+      "technologies": ["Forms and form fields", "Input validation and error messages", "DOM Manipulation, traversal and events", "Web accessibility", "Regular expressions"],
+      "live_link": "https://travisalstrand.github.io/FSJS_3.2/",
+      "github_link": "https://github.com/TravisAlstrand/FSJS_3.2",
+      "image_urls": ["images/p3_1", "images/p3_2"]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "A game that chooses a random phrase and has the user guess letter by letter with a set amount of misses.",
+      "technologies": ["OOP", "Event handling", "JavaScript class syntax", "Adding methods and properties to a class", "Arrays and loops"],
+      "live_link": "https://travisalstrand.github.io/FSJS_4.2/",
+      "github_link": "https://github.com/TravisAlstrand/FSJS_4.2",
+      "image_urls": ["images/p4_1", "images/p4_2"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "A site pulling data from an API and displaying dynamically.",
+      "technologies": ["Working with public external APIs", "Utilize API documentation", "Parse API-provided JSON", "Creating a project directory from scratch", "Asynchronous programming"],
+      "live_link": "https://travisalstrand.github.io/FSJS_5.2/",
+      "github_link": "https://github.com/TravisAlstrand/FSJS_5.2",
+      "image_urls": ["images/p5_1", "images/p5_2"]
+    }
+  ]
+}
