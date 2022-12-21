@@ -152,6 +152,7 @@ nav a span {
   width: 100%;
   max-width: 250px;
   border: 4px solid #fff;
+  box-shadow: 5px 5px 5px #e6cba1;
 }
 
 .dev-intro-box {
@@ -159,7 +160,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #e6cba1;
   margin: 0 auto 0.5rem;
 }
 
@@ -260,6 +261,11 @@ nav a span {
   min-width: 100px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  transition: box-shadow .4s ease;
+}
+
+.cell img:hover {
+  box-shadow: 5px 5px 5px #e6cba1;
 }
 
 

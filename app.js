@@ -24,14 +24,12 @@ app.get('/project/:id', (req, res, next) => {
   if (project) {
     res.render('project', { project });
   } else {
-    console.log('calling next')
     next();
   };
 });
 
 // 404 HANDLER
 app.use((req, res, next) => {
-  console.log('404 handler called')
   const err = new Error();
   err.status = 404;
   err.message = "That page doesn't exist!";
