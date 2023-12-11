@@ -49,5 +49,6 @@ app.use((err, req, res, next) => {
   }
 });
 
+// run 3000 locally or provided PORT from VERCEL
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
