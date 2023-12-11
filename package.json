@@ -2,9 +2,9 @@
   "name": "fsjs_6.2",
   "version": "1.0.0",
   "description": "Static Node.js and Express Site",
-  "main": "api/index.js",
+  "main": "./api/index.js",
   "scripts": {
-    "start": "nodemon api/index.js"
+    "start": "node ./api/index.js"
   },
   "repository": {
     "type": "git",
